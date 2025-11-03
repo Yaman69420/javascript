@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2130844d-d823-46fb-be31-35b4d2e6fa47" name="Changes" comment="" />
+    <list default="true" id="2130844d-d823-46fb-be31-35b4d2e6fa47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/p26/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p26/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p26/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p26/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p26/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p26/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p26/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p26/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p26/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p26/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p26/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,11 +46,12 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/Yaman/Documents/javascript/p25",
+    "last_opened_file_path": "/Users/Yaman/Documents/javascript",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,11 +65,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/p25" />
       <recent name="$PROJECT_DIR$/p22" />
       <recent name="$PROJECT_DIR$/p18" />
       <recent name="$PROJECT_DIR$/p17" />
-      <recent name="$PROJECT_DIR$/p14" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -76,6 +90,7 @@
       <workItem from="1762157837287" duration="4821000" />
       <workItem from="1762163424241" duration="15811000" />
       <workItem from="1762194742047" duration="613000" />
+      <workItem from="1762195575020" duration="117000" />
     </task>
     <servers />
   </component>
