@@ -1,0 +1,24 @@
+//eigen css
+
+//$primary: yellow;
+//$fourth: #7b2cbf;
+//
+//
+////theme colour uitbreiden
+//$theme-colors: map-merge(
+//$theme-colors, (
+//        "fourth": $fourth,
+//        "fourth-light": lighten($fourth, 12%),
+//        "fourth-dark": darken($fourth, 10%)
+
+//)
+//);
+
+//import van bootstrap css
+@import "bootstrap/scss/bootstrap";
+
+// Update the import directory to point to it‘s location within node_modules
+$bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
+
+// Import the Sass files as usual
+@import "bootstrap-icons/font/bootstrap-icons";
