@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Smoke Test</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+<section class="container py-4" id="h3-formatter-station">
+    <h3>H3 – Formatter Station</h3>
+    <!-- Input Group -->
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="fs_label">Tekst</span>
+        <input
+                id="fs_text"
+                type="text"
+                class="form-control"
+                placeholder="Typ hier..."
+                aria-describedby="fs_label"
+        >
+    </div>
+    <!-- Button Group -->
+    <div class="btn-group mb-3" role="group" aria-label="Formatter acties">
+        <button id="fs_upper" type="button" class="btn btn-outline-
+dark">toUpperCase()</button>
+        <button id="fs_lower" type="button" class="btn btn-outline-
+dark">toLowerCase()</button>
+        <button id="fs_cap" type="button" class="btn btn-outline-
+dark">Capitalize()</button>
+    </div>
+    <!-- List Group: max 5 resultaten -->
+    <ul id="fs_results" class="list-group"></ul>
+</section>
+</body>
+</html>

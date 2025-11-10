@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Smoke Test</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+<section class="container py-4" id="h4-template-previewer">
+    <h3>H4 – Template Previewer</h3>
+    <!-- Inputs -->
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="form-floating">
+                <input id="tp_first" class="form-control" placeholder="Voornaam">
+                <label for="tp_first">Voornaam</label>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-floating">
+                <input id="tp_last" class="form-control" placeholder="Achternaam">
+                <label for="tp_last">Achternaam</label>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-floating">
+                <input id="tp_city" class="form-control" placeholder="Stad">
+                <label for="tp_city">Stad</label>
+            </div>
+        </div>
+    </div>
+    <!-- Pills -->
+    <ul class="nav nav-pills my-3" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button id="tp_p1" class="nav-link active" type="button" role="tab" aria-selected="true">
+                P1
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button id="tp_p2" class="nav-link" type="button" role="tab" aria-selected="false">
+                P2
+            </button>
+        </li>
+    </ul>
+    <!-- Preview -->
+    <div class="card">
+        <div class="card-body">
+            <div id="tp_preview" class="placeholder-glow">
+                <span class="placeholder col-6"></span>
+                <span class="placeholder col-4"></span>
+            </div>
+        </div>
+    </div>
+</section></body>
+</html>

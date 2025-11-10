@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Smoke Test</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+<section class="container py-4" id="h1-unit-converter">
+    <h3>H1 – Unit Converter</h3>
+    <div class="row g-3">
+        <div class="col-md-6">
+            <div class="input-group">
+                <span class="input-group-text">Centimeters</span>
+                <input id="uc_cm" type="number" class="form-control" placeholder="bv.
+180">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="btn-group">
+                <button id="uc_to_m" class="btn btn-outline-secondary">→
+                    meter</button>
+                <button id="uc_to_in" class="btn btn-outline-secondary">→
+                    inch</button>
+            </div>
+        </div>
+        <div class="col-12">
+            <span class="me-2">Meter:</span><span id="uc_m" class="badge text-bg-secondary">-</span>
+            <span class="ms-4 me-2">Inch:</span><span id="uc_in" class="badge text-bg-secondary">-</span>
+        </div>
+    </div>
+</section>
+</body>
+</html>

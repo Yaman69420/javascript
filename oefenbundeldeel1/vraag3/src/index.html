@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Smoke Test</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+<section class="container py-4" id="ex-m3">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-secondary text-white">Oefening M3 — BMI-
+                    berekening</div>
+                <div class="card-body">
+                    <label for="bmi_w" class="form-label">Gewicht (kg)</label>
+                    <input id="bmi_w" type="number" step="0.1" class="form-control mb-2" placeholder="bijv. 72.5" />
+                    <label for="bmi_h" class="form-label">Lengte (cm)</label>
+                    <input id="bmi_h" type="number" step="1" class="form-control mb-2"
+                           placeholder="bijv. 175" />
+                    <button id="bmi_btn" class="btn btn-secondary w-100 mb-3">Bereken
+                        BMI</button>
+                    <div id="bmi_out" class="alert alert-secondary mb-0" role="status"
+                         aria-live="polite">
+                        Resultaat verschijnt hier…
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
