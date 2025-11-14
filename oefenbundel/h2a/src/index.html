@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>smoke test</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+
+<section class="container py-4" id="h2-scope-lab">
+    <h3>H2 – Scope Lab</h3>
+
+    <!-- Actieknoppen en status -->
+    <div class="mb-3 d-flex align-items-center gap-2">
+        <button id="sc_global" class="btn btn-secondary">Run global()</button>
+        <button id="sc_local" class="btn btn-secondary">Run local()</button>
+
+        <!-- Status badge -->
+        <span id="sc_status" class="badge text-bg-secondary">
+Nog niet uitgevoerd
+</span>
+    </div>
+
+    <!-- Resultaat variabelenlijst -->
+    <ul id="sc_vars" class="list-group mb-3"></ul>
+
+    <!-- Accordion uitleg -->
+    <div class="accordion" id="sc_acc">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="sc_acc_header">
+                <button class="accordion-button" type="button" data-bs-
+                        toggle="collapse" data-bs-target="#sc_acc_body">
+                    Function scope vs Block scope
+                </button>
+            </h2>
+            <div id="sc_acc_body" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    In JavaScript is <code>var</code> function-scoped, wat betekent dat
+                    hij binnen de volledige functie blijft bestaan.
+                    <code>let</code> en <code>const</code> zijn block-scoped en bestaan
+                    enkel binnen de accolades waarin ze zijn gedeclareerd.
+                    Hoisting werkt anders voor var dan voor let/const, wat invloed
+                    heeft op bereikbaarheid.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS Mega Oefening</title>
+    <script type="module" src="./js/main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body.dark-mode {
+            background-color: #121212;
+            color: #f8f9fa;
+        }
+        body.dark-mode .card {
+            background-color: #1e1e1e;
+            border-color: #333;
+        }
+        .todo-done {
+            text-decoration: line-through;
+            opacity: .6;
+        }
+    </style>
+</head>
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <span class="navbar-brand">JS Mega Oefening</span>
+        <button id="dm_toggle" class="btn btn-outline-light btn-sm ms-auto">
+            Dark mode 🌙
+        </button>
+    </div>
+</nav>
+
+<main class="container my-4">
+
+    <!-- 1. Greeting + pure/impure + validation -->
+    <section id="sec-greet" class="mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">1. Groet Generator (pure vs impure)</div>
+            <div class="card-body">
+                <div class="input-group mb-2">
+                    <span class="input-group-text">Naam</span>
+                    <input id="gr_name" type="text" class="form-control" placeholder="Typ je naam...">
+                </div>
+                <button id="gr_btn" class="btn btn-primary mb-3">Groet mij</button>
+                <div id="gr_out" class="alert alert-secondary mb-0">Wacht op input…</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Formatter station + array + max 5 items -->
+    <section id="sec-format" class="mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">2. Formatter Station (upper/lower/capitalize)</div>
+            <div class="card-body">
+                <div class="input-group mb-2">
+                    <span class="input-group-text">Tekst</span>
+                    <input id="fs_text" type="text" class="form-control" placeholder="Typ hier tekst...">
+                </div>
+                <div class="btn-group mb-3" role="group">
+                    <button id="fs_upper" class="btn btn-outline-secondary">UPPER</button>
+                    <button id="fs_lower" class="btn btn-outline-secondary">lower</button>
+                    <button id="fs_cap"   class="btn btn-outline-secondary">Capitalize</button>
+                </div>
+                <ul id="fs_results" class="list-group"></ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Slug maker + regex -->
+    <section id="sec-slug" class="mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">3. Slug Maker (regex)</div>
+            <div class="card-body">
+                <div class="input-group mb-2">
+                    <span class="input-group-text">Titel</span>
+                    <input id="sm_title" type="text" class="form-control" placeholder="Bijv. 'Mijn Eerste Blogpost!'">
+                </div>
+                <p class="mb-1"><strong>Slug:</strong></p>
+                <div id="sm_slug" class="alert alert-secondary mb-0">-</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Tags manager + arrays + Set + sort/reverse -->
+    <section id="sec-tags" class="mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">4. Tags Manager (arrays, Set, sort, reverse)</div>
+            <div class="card-body">
+                <div class="input-group mb-2">
+                    <span class="input-group-text">Tag</span>
+                    <input id="tm_input" type="text" class="form-control" placeholder="Bijv. JavaScript">
+                    <button id="tm_add" class="btn btn-outline-primary">Voeg toe</button>
+                </div>
+                <div class="mb-2 d-flex gap-2">
+                    <button id="tm_sort" class="btn btn-sm btn-outline-secondary">Sorteer A-Z</button>
+                    <button id="tm_rev"  class="btn btn-sm btn-outline-secondary">Omgekeerd</button>
+                    <button id="tm_clear" class="btn btn-sm btn-outline-danger">Leeg alles</button>
+                </div>
+                <p class="small mb-1">
+                    Totaal: <span id="tm_count" class="badge text-bg-primary">0</span>
+                    Uniek: <span id="tm_unique" class="badge text-bg-success">0</span>
+                </p>
+                <ul id="tm_list" class="list-group"></ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Todo app + filters + event delegation -->
+    <section id="sec-todo" class="mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">5. Todo App (filters, event delegation)</div>
+            <div class="card-body">
+                <form id="todo_form" class="mb-2">
+                    <div class="input-group">
+                        <span class="input-group-text">Taak</span>
+                        <input id="todo_input" type="text" class="form-control" placeholder="Nieuwe taak...">
+                        <button class="btn btn-primary" type="submit">+ Voeg toe</button>
+                    </div>
+                </form>
+                <div id="todo_msg" class="alert alert-secondary mb-2">Wacht op taak…</div>
+
+                <div class="btn-group mb-2" role="group">
+                    <button id="todo_filter_all"  type="button" class="btn btn-primary btn-sm">Alle</button>
+                    <button id="todo_filter_open" type="button" class="btn btn-outline-primary btn-sm">Open</button>
+                    <button id="todo_filter_done" type="button" class="btn btn-outline-primary btn-sm">Afgewerkt</button>
+                </div>
+                <button id="todo_clear_done" class="btn btn-sm btn-outline-danger mb-2">Verwijder afgewerkte</button>
+
+                <p class="small mb-1">
+                    Open taken: <span id="todo_count_open" class="badge text-bg-info">0</span>
+                </p>
+                <ul id="todo_list" class="list-group"></ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Converters & calculators -->
+    <section id="sec-math" class="mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">6. Converters & Berekeningen</div>
+            <div class="card-body row g-3">
+                <!-- 6.1 cm → m/inch -->
+                <div class="col-md-4">
+                    <h6>cm → meter/inch</h6>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">cm</span>
+                        <input id="uc_cm" type="number" class="form-control" placeholder="180">
+                    </div>
+                    <div class="d-flex gap-2 mb-2">
+                        <button id="uc_to_m"  class="btn btn-sm btn-outline-secondary">→ meter</button>
+                        <button id="uc_to_in" class="btn btn-sm btn-outline-secondary">→ inch</button>
+                    </div>
+                    <p class="small mb-1">Meter: <span id="uc_m" class="badge text-bg-primary">-</span></p>
+                    <p class="small mb-0">Inch: <span id="uc_in" class="badge text-bg-primary">-</span></p>
+                </div>
+
+                <!-- 6.2 Celsius → Kelvin -->
+                <div class="col-md-4">
+                    <h6>°C → Kelvin</h6>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">°C</span>
+                        <input id="m2_c" type="number" class="form-control" placeholder="25">
+                    </div>
+                    <button id="m2_btn" class="btn btn-sm btn-outline-secondary mb-2">Bereken Kelvin</button>
+                    <div id="m2_out" class="alert alert-secondary mb-0">Wacht op input…</div>
+                </div>
+
+                <!-- 6.3 Korting -->
+                <div class="col-md-4">
+                    <h6>Prijs na korting</h6>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">€</span>
+                        <input id="price" type="number" class="form-control" placeholder="100">
+                    </div>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">Korting %</span>
+                        <input id="discount" type="number" class="form-control" placeholder="15">
+                    </div>
+                    <button id="discount_btn" class="btn btn-sm btn-outline-secondary mb-2">Bereken</button>
+                    <div id="discount_out" class="alert alert-secondary mb-0">Wacht op input…</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. BMI met categorie -->
+    <section id="sec-bmi" class="mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">7. BMI Calculator (categorie + kleur)</div>
+            <div class="card-body row g-3">
+                <div class="col-md-4">
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">Gewicht (kg)</span>
+                        <input id="bmi_w" type="number" class="form-control" placeholder="70">
+                    </div>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">Lengte (cm)</span>
+                        <input id="bmi_h" type="number" class="form-control" placeholder="175">
+                    </div>
+                    <button id="bmi_btn" class="btn btn-sm btn-outline-secondary">Bereken BMI</button>
+                </div>
+                <div class="col-md-8">
+                    <div id="bmi_out" class="alert alert-secondary mb-0">Wacht op invoer…</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Classes: User/Admin + Pets -->
+    <section id="sec-classes" class="mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">8. ES6 Classes (User/Admin + Huisdieren)</div>
+            <div class="card-body row g-3">
+                <!-- Users -->
+                <div class="col-md-6">
+                    <h6>Users & Admins</h6>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">Naam</span>
+                        <input id="cls_name" type="text" class="form-control" placeholder="Naam">
+                    </div>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">Leeftijd</span>
+                        <input id="cls_age" type="number" class="form-control" placeholder="18">
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label">Rol</label>
+                        <select id="cls_role" class="form-select form-select-sm">
+                            <option value="user">User</option>
+                            <option value="admin">Admin</option>
+                        </select>
+                    </div>
+                    <button id="cls_btn" class="btn btn-sm btn-outline-primary mb-2">Voeg user toe</button>
+                    <ul id="cls_list" class="list-group"></ul>
+                </div>
+
+                <!-- Pets -->
+                <div class="col-md-6">
+                    <h6>Huisdieren</h6>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">Naam</span>
+                        <input id="pet_name" type="text" class="form-control" placeholder="Bijv. Max">
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label">Type</label>
+                        <select id="pet_type" class="form-select form-select-sm">
+                            <option value="hond">Hond</option>
+                            <option value="kat">Kat</option>
+                            <option value="ander">Ander</option>
+                        </select>
+                    </div>
+                    <button id="pet_btn" class="btn btn-sm btn-outline-primary mb-2">Voeg dier toe</button>
+                    <ul id="pet_list" class="list-group"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Formulier met live preview + preventDefault -->
+    <section id="sec-form" class="mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">9. Formulier: live preview + submit (preventDefault)</div>
+            <div class="card-body">
+                <form id="ev_form" class="mb-2">
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">Naam</span>
+                        <input id="ev_name" type="text" class="form-control" placeholder="Typ je naam...">
+                    </div>
+                    <button class="btn btn-primary" type="submit">Verzend</button>
+                </form>
+                <div id="ev_preview" class="alert alert-secondary mb-2">Wacht op input…</div>
+                <div id="ev_status" class="alert alert-secondary mb-0">Nog niets verzonden</div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

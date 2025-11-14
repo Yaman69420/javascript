@@ -5,175 +5,209 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2130844d-d823-46fb-be31-35b4d2e6fa47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag1/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag1/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag1/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag2/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag2/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag2/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag2/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag2/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag2/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag2/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag3/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag3/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag3/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag3/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag3/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag3/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag3/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag3/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag4/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag4/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag4/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag4/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag4/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag4/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag4/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag4/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag5/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag5/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag5/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag5/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag5/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag5/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag5/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag5/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag6/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag6/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag6/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag6/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag6/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag6/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag6/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag6/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag6/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag6/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag7/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag7/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag7/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag7/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag7/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag7/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag7/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag7/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag7/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag7/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundel/vraag7/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag1/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag1/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag1/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag1/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag1/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag1/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag1/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag2/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag2/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag2/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag2/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag2/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag2/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag2/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag3/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag3/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag3/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag3/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag3/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag3/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag3/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag3/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p29/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p29/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p29/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p29/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p29/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p29/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p29/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p31/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p31/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p31/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p31/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p31/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p31/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p31/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p31/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p31/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p31/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p31/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p33/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p33/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p33/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p33/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p33/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p33/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p33/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p33/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p33/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p33/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p33/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p35/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p35/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p35/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p35/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p35/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p35/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p35/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p35/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p35/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p35/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p35/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p38/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p38/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p38/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p38/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p38/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p38/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p38/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p38/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p38/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p38/src/scss/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p38/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handige shit/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/megaOpdracht/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/megaOpdracht/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/megaOpdracht/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/megaOpdracht/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/megaOpdracht/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/megaOpdracht/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/megaOpdracht/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundel/h2a/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundel/h2a/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundel/h2a/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundel/h2a/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundel/h2a/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundel/h2a/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundel/h2a/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundel/h2a/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundel/h2a/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundel/h2a/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag4/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag4/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag4/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag4/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag4/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag4/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag4/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefenbundeldeel1/vraag4/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefeningPokemon/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefeningPokemon/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefeningPokemon/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefeningPokemon/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefeningPokemon/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefeningPokemon/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefeningPokemon/src/data/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefeningPokemon/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefeningPokemon/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefeningPokemon/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oefeningPokemon/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p100/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p100/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p100/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p100/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p100/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p100/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p100/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p100/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p100/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p100/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p101/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p101/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p101/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p101/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p101/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p101/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p101/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p101/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p101/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p101/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p109/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p109/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p109/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p109/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p109/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p109/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p109/src/data/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p109/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p109/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p109/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p109/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p67/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p67/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p67/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p67/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p67/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p67/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p67/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p67/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p67/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p67/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p72/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p72/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p72/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p72/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p72/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p72/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p72/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p72/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p72/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p72/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p73/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p73/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p73/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p73/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p73/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p73/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p73/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p73/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p73/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p73/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p76/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p76/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p76/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p76/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p76/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p76/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p76/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p76/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p76/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p76/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p77/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p77/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p77/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p77/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p77/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p77/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p77/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p77/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p77/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p77/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p79/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p79/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p79/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p79/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p79/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p79/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p79/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p79/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p79/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p79/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p83/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p83/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p83/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p83/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p83/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p83/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p83/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p83/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p83/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p83/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p84/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p84/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p84/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p84/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p84/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p84/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p84/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p84/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p84/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p84/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p86/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p86/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p86/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p86/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p86/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p86/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p86/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p86/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p86/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p86/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p89/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p89/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p89/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p89/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p89/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p89/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p89/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p89/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p89/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p89/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p90/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p90/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p90/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p90/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p90/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p90/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p90/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p90/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p90/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p90/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p95/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p95/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p95/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p95/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p95/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p95/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p95/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p95/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p95/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p95/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p96/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p96/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p96/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p96/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p96/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p96/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p96/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p96/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p96/src/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p96/vite.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/javascript2025p26.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oefenbundel/vraag1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/oefenbundel/vraag1/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oefenbundel/vraag1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/.idea/my-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oefenbundel/vraag1/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oefenbundel/vraag1/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/p29/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/p29/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/p29/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/p29/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/oefenbundel/vraag1/src/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p26/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/oefenbundel/vraag1/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/javascript2025p64.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,6 +235,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.main.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -208,7 +243,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/Yaman/Documents/javascript/oefenbundeldeel1",
+    "last_opened_file_path": "/Users/Yaman/Documents/javascript",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -222,11 +257,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/oefenbundeldeel1" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/handige shit" />
       <recent name="$PROJECT_DIR$/oefenbundel" />
-      <recent name="$PROJECT_DIR$/p25" />
-      <recent name="$PROJECT_DIR$/p22" />
+      <recent name="$PROJECT_DIR$/oefenbundeldeel1" />
+      <recent name="$PROJECT_DIR$/p76/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -249,7 +287,7 @@
       <workItem from="1762194742047" duration="613000" />
       <workItem from="1762195575020" duration="22905000" />
       <workItem from="1762269895219" duration="13816000" />
-      <workItem from="1762368881342" duration="21210000" />
+      <workItem from="1762368881342" duration="89189000" />
     </task>
     <servers />
   </component>

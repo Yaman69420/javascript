@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Smoke Test</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+<section class="container py-4" id="ex-m5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">Oefening M5 — Prijs berekenen na korting</div>
+                <div class="card-body">
+                    <label for="price" class="form-label">Oorspronkelijke prijs (€)</label>
+                    <input id="price" type="number" step="0.01" class="form-control mb-2" placeholder="bijv. 100" />
+                    <label for="discount" class="form-label">Korting (%)</label>
+                    <input id="discount" type="number" step="0.1" class="form-control mb-2" placeholder="bijv. 15" />
+                    <button id="discount_btn" class="btn btn-primary w-100 mb-3">Bereken nieuwe prijs</button>
+                    <div id="discount_out" class="alert alert-secondary mb-0"
+                         role="status" aria-live="polite">
+                        Resultaat verschijnt hier…
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
